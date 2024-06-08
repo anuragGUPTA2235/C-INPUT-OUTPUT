@@ -109,3 +109,18 @@ main()
 //// they cant be variable
 //// compilation error
 ```
+## QUES 6S
+```
+#include<stdio.h>
+main()
+{
+    if('A'<'a')
+        printf("TCS");
+    else
+        printf("CTS");
+}
+//// ans is TCS
+//// compiler will look into ascii value
+//// A : 65
+//// a : 97
+```

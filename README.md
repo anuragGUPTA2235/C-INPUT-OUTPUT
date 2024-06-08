@@ -40,3 +40,28 @@ main()
 //// the compiler consider 65 to be an integer as well as A at the same time
 
 ```
+# QUES 3
+```
+#include<stdio.h>
+main()
+{
+    int n = 65;
+    switch(n)
+    {
+        case 65: printf("case 64");
+        break;
+        case 'A':printf("case A");
+        break;
+        default:printf("default case");
+
+    }
+}
+//// golden notes
+//// ans is error - duplicate case value
+//// in switch the compiler considers integer and char at the same time
+//// if the integer is ascii value of an character
+//// so here 65 is ascii character of A
+//// the compiler consider 65 to be an integer as well as A at the same time
+//// in switch duplicate case value are not accepted
+//// each value must be unique
+```

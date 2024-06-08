@@ -124,3 +124,14 @@ main()
 //// A : 65
 //// a : 97
 ```
+## QUES 7
+```
+#include<stdio.h>
+#define TEST 5
+main()
+{
+    printf("TEST");
+}
+//// ans is TEST
+//// double quotes represent string
+```

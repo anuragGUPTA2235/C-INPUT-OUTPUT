@@ -109,7 +109,7 @@ main()
 //// they cant be variable
 //// compilation error
 ```
-## QUES 6S
+## QUES 6
 ```
 #include<stdio.h>
 main()

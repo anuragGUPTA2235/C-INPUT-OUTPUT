@@ -65,3 +65,25 @@ main()
 //// in switch duplicate case value are not accepted
 //// each value must be unique
 ```
+## QUES 4
+```
+#include<stdio.h>
+main()
+{
+    int n = 65;
+    switch(n)
+    {
+        case 65: printf("case 64");
+
+        case 66 :printf("case A");
+
+        default:printf("default case");
+
+    }
+}
+//// golden notes
+//// ans is case 64case Adefault case
+//// this behaviour is known as fall through
+//// see in switch its like a waterfall.if it enters a case it needs a break to stop, otherwise it will execute
+//// every case from that entry case
+```

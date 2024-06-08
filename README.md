@@ -87,7 +87,7 @@ main()
 //// see in switch its like a waterfall.if it enters a case it needs a break to stop, otherwise it will execute
 //// every case from that entry case
 ```
-QUES 5 
+## QUES 5 
 ```
 #include<stdio.h>
 main()

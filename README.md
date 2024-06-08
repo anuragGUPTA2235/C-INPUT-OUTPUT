@@ -87,3 +87,25 @@ main()
 //// see in switch its like a waterfall.if it enters a case it needs a break to stop, otherwise it will execute
 //// every case from that entry case
 ```
+QUES 5 
+```
+#include<stdio.h>
+main()
+{
+    int a= 5;
+    int b = 10;
+    switch(a)
+    {
+    case a: printf("hello");
+    break;
+    case b: printf("hello");
+    break;
+    case 3:
+        default:printf("2");
+    }
+}
+//// golden words
+//// case label must be integer or character
+//// they cant be variable
+//// compilation error
+```

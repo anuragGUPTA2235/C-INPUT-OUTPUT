@@ -219,3 +219,23 @@ main()
 // DEFAULT AND CASES ARE COMPLETELY OPTIONAL
 // ANS IS NO ERROR NO OUTPUT
 ```
+## QUES 13
+```
+#include<stdio.h>
+main()
+{
+int n = 30;
+if(n=10)
+printf("true");
+else
+printf("false");
+}
+// assignment operator
+// n = 10 , if its 1 or greater
+// its a True value
+// ans is true
+// comparison operator n==10
+// it will compare n with 10
+// n is 30
+// then ans is false
+```

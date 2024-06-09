@@ -306,4 +306,22 @@ int main()
 //// then break closes the loop
 
 ```
+## QUES 17
+```
+#include<stdio.h>
+main()
+{
+if(5)
+    printf("IT");
+else
+    printf("CSE");
+printf("ECE");
 
+}
+// 5 MEANS true
+// IT WILL BE PRINTED
+// IF ELSE WITHOUT CURLY TAKES ONLY ONE STATEMENT
+// ECE IS OUTSIDE IF ELSE BLOCK
+// ANS IS ITECE
+
+```

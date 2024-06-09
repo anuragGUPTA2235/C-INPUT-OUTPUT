@@ -150,3 +150,28 @@ main()
 //// it tries to access memory it is not allowed
 //// if its "helloworld" it will work
 ```
+## QUES 9
+```
+#include<stdio.h>
+main()
+{
+    int a = 3;
+    switch(a)
+    {
+    case 1:
+    case 5:
+    case 6:printf("america");
+        break;
+    case 2:printf("india");
+        break;
+    case 3:
+    case 7:printf("australia");
+            break;
+    default:printf("to the moon");
+    }
+}
+// switchcase can be empty
+// ans is australia
+// fall through
+
+```

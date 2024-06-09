@@ -173,5 +173,22 @@ main()
 // switchcase can be empty
 // ans is australia
 // fall through
-
+```
+## QUES 10
+```
+#include<stdio.h>
+main()
+{
+    switch(printf("moon"))
+    {
+    case 4:printf("pie");
+        break;
+    default:printf("to the moon");
+    }
+}
+// printf statement retuns an integer
+// switch accepts only integer or char
+// it returns the count of char it printed successfully
+// its 4
+// ans is moonpie
 ```

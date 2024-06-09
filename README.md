@@ -339,3 +339,15 @@ printf("%f\n",5.3%5);
 // it gives remainder
 // 53 % 50 = 3
 ```
+## QUES 19
+```
+#include<stdio.h>
+main()
+{
+    printf("%d",printf("%s","helloworld"));
+}
+//// ans is helloworld10
+//// as printf also returns integer
+//// no of char it succcessfully prints
+//// it will return 10
+```

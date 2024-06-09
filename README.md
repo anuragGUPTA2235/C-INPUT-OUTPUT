@@ -192,3 +192,17 @@ main()
 // its 4
 // ans is moonpie
 ```
+## QUES 11
+```
+#include<stdio.h>
+main()
+{
+    switch(5)
+    {
+    case 4:printf("pie");
+        break;
+    }
+}
+// DEFAULT IS COMPLETELY OPTIONAL
+// ANS IS NO ERROR NO OUTPUT
+```

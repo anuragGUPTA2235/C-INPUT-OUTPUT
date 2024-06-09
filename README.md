@@ -253,3 +253,32 @@ int main()
 // are replaced
 // ans is WELCOME TO OUR CHANNEL
 ```
+## QUES 15
+```
+#include<stdio.h>
+int main()
+{
+    int i;
+    for(i=0;i<20;++i)
+    {
+        switch(i)
+        {
+        case 0: i+=5;
+        case 1: i+=2;
+        case 5: i+=5;
+        default:i+=4;
+
+        }
+        printf("%d ",i);
+    }
+}
+// ans is 16 21
+// at first i is 0
+//  since there are no breaks in case, it will enter
+// case 0 and also all cases below it
+// so 0 + 5 + 2 + 5 + 4 = 16
+// then next val of i is 16 
+// increment in for loop to become 17
+// no 17 in case label
+// default 17 + 4 = 21
+```

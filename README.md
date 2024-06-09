@@ -282,3 +282,28 @@ int main()
 // no 17 in case label
 // default 17 + 4 = 21
 ```
+## QUES 16
+```
+#include<stdio.h>
+int main()
+{
+  int i;
+  for(i=-1;i<=10;++i)
+  {
+      if(i<3)
+        continue;
+      else
+        break;
+      printf("dogecoin");
+  }
+    return 0;
+}
+//// how many times dogecoin is printed
+//// 0 times
+//// continue skips the rest code and start the
+//// next iteration
+////in whole loop first continue skips to next iteraion
+//// then break closes the loop
+
+```
+

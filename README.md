@@ -135,3 +135,17 @@ main()
 //// ans is TEST
 //// double quotes represent string
 ```
+## OUES 8
+```
+#include<stdio.h>
+main()
+{
+    printf('helloworld');
+}
+//// ans is no output
+//// never use single quotes in printf
+//// single quotes are used for char and not string
+//// it will return a large number
+//// which is a type of error
+//// it tries to access memory it is not allowed
+```

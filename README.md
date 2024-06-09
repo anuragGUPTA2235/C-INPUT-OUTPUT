@@ -206,3 +206,16 @@ main()
 // DEFAULT IS COMPLETELY OPTIONAL
 // ANS IS NO ERROR NO OUTPUT
 ```
+## QUES 12
+```
+#include<stdio.h>
+main()
+{
+    switch(5)
+    {
+
+    }
+}
+// DEFAULT AND CASES ARE COMPLETELY OPTIONAL
+// ANS IS NO ERROR NO OUTPUT
+```

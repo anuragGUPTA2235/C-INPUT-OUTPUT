@@ -239,3 +239,17 @@ printf("false");
 // n is 30
 // then ans is false
 ```
+## QUES 14
+```
+#include<stdio.h>
+#define STRING "%s\n"
+#define NAME "WELCOME TO OUR CHANNEL"
+int main()
+{
+    printf(STRING,NAME);
+    return 0;
+}
+// macros are not evaluated they
+// are replaced
+// ans is WELCOME TO OUR CHANNEL
+```

@@ -326,3 +326,16 @@ printf("ECE");
 
 ```
 # SWITCH ONLY TAKES INTEGER OR CHARACTER SO NO FLOAT
+## QUES 18
+```
+#include<stdio.h>
+main()
+{
+
+printf("%f\n",5.3%5);
+
+}
+// modulo operator dont take float
+// it gives remainder
+// 53 % 50 = 3
+```

@@ -446,5 +446,27 @@ main()
 // 5 in hex to bin = 0101
 // do every bit and = 0101 = 5
 // ans is 5 
+```
+```
+#include<stdio.h>
+main()
+{
+    printf("%d",sizeof(int));
+    printf("%d",sizeof(float));
+    printf("%d",sizeof(char));
+
+    int i = 5;
+    printf("%d",sizeof(++i));
+    printf("%d",i);
+
+}
+// sizeof returns in memory taken by datatypes in bytes
+// int 4 bytes
+//float 4 bytes
+// bool 4 bytes
+//char 1 byte
+
+// sizeof(++i) = int = 4 bytes
+// 5
 
 ```

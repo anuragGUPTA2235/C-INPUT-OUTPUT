@@ -563,3 +563,14 @@ main()
 // but u have not declared it
 // compiler error
 ```
+```
+
+#include<stdio.h>
+main()
+{
+  int a,b,c;
+  a=b=c=50;
+  printf("%d%d%d",a,b,c);
+}
+// ans is 505050
+```

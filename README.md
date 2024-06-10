@@ -417,4 +417,18 @@ main()
 // !! evaluates to 1
 // its like a not gate
 ```
+```
+#include<stdio.h>
+main()
+{
+    printf("%d",5%2);
+    printf("%d",-5%2);
+    printf("%d",5%-2);
 
+}
+// do normal remainder cal
+// just give sign of dividend
+// the number which is to be divided is the dividend
+// give sign of dividend
+// ans 1-11
+```

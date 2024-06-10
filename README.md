@@ -520,3 +520,15 @@ main()
 // c = 1
 //ans is 1
 ```
+```
+#include<stdio.h>
+main()
+{
+    int x;
+    x == ++2;
+    printf("%d",x);
+}
+// no ++ -- with constants or expressions
+// only variables
+
+```

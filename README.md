@@ -364,3 +364,15 @@ main()
 ////but hello is 5 world long
 //// so 5 spaces are prefixed
 ```
+## QUES 21
+```
+#include<stdio.h>
+main()
+{
+    int a;
+    a =1,2,3,4,5;
+    printf("%d",a);
+}
+// assignment operator > comma operaor
+// ans is 1 
+```

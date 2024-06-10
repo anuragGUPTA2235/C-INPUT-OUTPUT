@@ -391,3 +391,17 @@ main()
 // its within the parenthesis
 // comma operator is more powerful than assignment
 ```
+## QUES 23
+```
+#include<stdio.h>
+main()
+{
+    int a = 2;
+    int b = a + (1,2,3,4,5);
+    printf("%d",b);
+}
+// ans is 7
+// (1,2,3,4,5) = 5
+// 2 + 5 = 7
+
+```

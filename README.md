@@ -585,5 +585,19 @@ main()
 }
 // compiler error
 // redeclaration in c is not allowed
+```
+```
+
+#include<stdio.h>
+main()
+{
+  printf("abc\b\binfo");
+  printf("abc\b\b\b");
+}
+// ans is info
+// its backspace escape sequence
+// cursor moves one char to left
+// sec ans is abc as cursor moves three char to left 
+// but nothing more char to overwrite the previous one
 
 ```

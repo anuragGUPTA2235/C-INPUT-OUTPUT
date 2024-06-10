@@ -551,3 +551,15 @@ main()
 // !true
 // false, will not enter ifelse block
 ```
+```
+
+#include<stdio.h>
+main()
+{
+  int a = b = c = 10;
+}
+// a is declared
+// u are using b and c
+// but u have not declared it
+// compiler error
+```

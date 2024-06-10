@@ -432,3 +432,19 @@ main()
 // give sign of dividend
 // ans 1-11
 ```
+```
+#include<stdio.h>
+main()
+{
+    printf("%d",15 && 5);
+    printf("%d",15 & 5);
+
+}
+// && and operator ans is 1
+// & bitwise and
+// 15 in hex to bin = 1111
+// 5 in hex to bin = 0101
+// do every bit and = 0101 = 5
+// ans is 5 
+
+```

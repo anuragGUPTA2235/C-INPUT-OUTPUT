@@ -574,3 +574,16 @@ main()
 }
 // ans is 505050
 ```
+```
+
+#include<stdio.h>
+main()
+{
+  int a,b,c;
+  int a;
+  printf("%d%d%d",a,b,c);
+}
+// compiler error
+// redeclaration in c is not allowed
+
+```

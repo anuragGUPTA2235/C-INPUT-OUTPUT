@@ -468,5 +468,26 @@ main()
 
 // sizeof(++i) = int = 4 bytes
 // 5
+```
+```
+#include<stdio.h>
+main()
+{
+    int x = 1;
+    switch(x){
+        x = x + 1;
+        case 1:printf("one");break;
+        case 2:printf("two");break;
+        default:printf("three");break;
+        x = x+1;
+    }
+    printf("%d",x);
+
+}
+// after switch it directly goes to case
+// ans is one
+// inside switch, control goes inside case only
+/// if u do inside case, it will get modified
+
 
 ```

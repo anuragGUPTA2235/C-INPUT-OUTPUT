@@ -599,5 +599,14 @@ main()
 // cursor moves one char to left
 // sec ans is abc as cursor moves three char to left 
 // but nothing more char to overwrite the previous one
-
+```
+```
+#include<stdio.h>
+main()
+{
+  int x[] = {1,2,3,4,5};
+  printf("%d",x[0]);
+  printf("%d",0[x]);
+// both works in similar fashion
+}
 ```

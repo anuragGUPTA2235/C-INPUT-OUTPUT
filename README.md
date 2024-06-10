@@ -403,5 +403,18 @@ main()
 // ans is 7
 // (1,2,3,4,5) = 5
 // 2 + 5 = 7
-
 ```
+## QUES 24
+```
+#include<stdio.h>
+main()
+{
+    int x=1,y=0,n;
+    n = !!x + !y;
+    printf("%d",n);
+}
+// ans is 2
+// !! evaluates to 1
+// its like a not gate
+```
+

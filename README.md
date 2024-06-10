@@ -376,3 +376,18 @@ main()
 // assignment operator > comma operaor
 // ans is 1 
 ```
+## QUES 22
+```
+#include<stdio.h>
+main()
+{
+    int a;
+    a =(1,2,3,4,5);
+    printf("%d",a);
+}
+// parenthesis operator highest predecence
+// ans is 5
+// comma operator goes from left to right
+// its within the parenthesis
+// comma operator is more powerful than assignment
+```

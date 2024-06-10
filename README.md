@@ -530,5 +530,24 @@ main()
 }
 // no ++ -- with constants or expressions
 // only variables
+```
+```
 
+#include<stdio.h>
+main()
+{
+    int a = 500,b = 100,c;
+    if(!a>=400)
+    {
+        b=300;
+    }
+    c=200;
+    printf("b=%d,c=%d",b,c);
+}
+// b=100 and c = 200
+// c is 200 ofcourse
+// relational > logical
+// !(500>=400)
+// !true
+// false, will not enter ifelse block
 ```

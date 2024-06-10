@@ -351,3 +351,16 @@ main()
 //// no of char it succcessfully prints
 //// it will return 10
 ```
+## QUES 20
+```
+#include<stdio.h>
+main()
+{
+    printf("%10s","hello");
+}
+//// ans is _____hello
+////5 spaces and 
+////%10s means width is 10
+////but hello is 5 world long
+//// so 5 spaces are prefixed
+```

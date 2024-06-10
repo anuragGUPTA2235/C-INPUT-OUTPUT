@@ -610,3 +610,8 @@ main()
 // both works in similar fashion
 }
 ```
+## %0 = octal value
+## %d = integer value
+## %f = float value
+## %s = string and char
+## %x = hexadecimal

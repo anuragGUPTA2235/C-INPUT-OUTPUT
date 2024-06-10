@@ -505,6 +505,18 @@ main()
 //IT WILL JUST NOT WORL
 //DEFAULT WILL BE PRINTED
 }
-
-
+```
+```
+#include<stdio.h>
+main()
+{
+    int a,b,c;
+        a=b=4;
+        c=a==b;
+        printf("%d",c);
+}
+// assignment operator < comparison opeartor
+// a==b returns 1
+// c = 1
+//ans is 1
 ```

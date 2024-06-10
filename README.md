@@ -488,6 +488,23 @@ main()
 // ans is one
 // inside switch, control goes inside case only
 /// if u do inside case, it will get modified
+```
+```
+#include<stdio.h>
+main()
+{
+    int x = 1;
+    switch(x){
+        case1:printf("one");break;
+        case2:printf("two");break;
+        default:printf("three");break;
+    }
+//ans is three
+//case1 -> no space between case and label
+//it will not GIVE COMPILER ERROR
+//IT WILL JUST NOT WORL
+//DEFAULT WILL BE PRINTED
+}
 
 
 ```

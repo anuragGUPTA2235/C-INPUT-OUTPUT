@@ -615,3 +615,21 @@ main()
 ## %f = float value
 ## %s = string and char
 ## %x = hexadecimal
+```
+
+#include<stdio.h>
+main()
+{
+  int x = 052;
+  printf("%o\n",x);
+  printf("%x\n",x);
+  printf("%d",x);
+}
+
+// ans is 52(octal) 2a(octal to hex) 42(octal to int)
+//%0 = octal value
+//%d = integer value
+//%f = float value
+//%s = string and char
+//%x = hexadecimal
+```

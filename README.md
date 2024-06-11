@@ -1043,5 +1043,22 @@ BY DEFAULT THE POINTER POINTS TO FIRTS LETTER IN STRING, WE ADD 10 IN MEMORY TO 
 CHARACTER AND NOW THE POINTER POINTS TO H CHARACTER AND THEN IT PRINTS 'HELLO' ..
 ```
 ```
+#include<stdio.h>
+void test(struct number n)
+{
+    n.x=100;
+}
+struct number{int x;};
+int main()
+{
+    struct number num;
+    test(num);
+    printf("%d\n",num.x);
+    return 0;
+}
+// compiler error
+//In C, when you pass a structure as a parameter
+// to a function, the structure needs to be either
+// fully defined or declared before the function prototype.
 
 ```

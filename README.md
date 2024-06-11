@@ -867,10 +867,7 @@ printf("Hello");
 k = fun(i);
 return 0; }
 else return 0;
-* Pull up for precis
-a) The function returns 0 for all values of
-b) The function prints the string somethi
-c) The function returns 0 when j = 50
-d) The function will exhaust the runtime stack or run Result
-infinite loop when j = 50
+//The function will exhaust the runtime stack or run Result
+//infinite loop when j = 50
+//look carefully
 ```

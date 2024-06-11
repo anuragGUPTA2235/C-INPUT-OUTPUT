@@ -962,6 +962,7 @@ return count;
 ## %c for printing and taking single character
 ## in printf and scanf
 ## no &operator required in strings, only for char
+## double quotes for string, single quotes for character
 ```
 #include<stdio.h>
 main()
@@ -979,4 +980,7 @@ hello
 hello
 anuragshelhar
 anuragshelhar
+```
+```
+
 ```

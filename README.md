@@ -633,3 +633,15 @@ main()
 //%s = string and char
 //%x = hexadecimal
 ```
+```
+#include<stdio.h>
+main()
+{
+  int x = 0x43ff;
+  int y = 0x43FF;
+  printf("%x\n",x);
+  printf("%x\n",y);
+}
+// hex
+// ans is 43ff in both cases
+```

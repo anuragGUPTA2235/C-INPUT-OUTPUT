@@ -891,5 +891,17 @@ main()
 // compiler error
 // only var
 // no array and constant
+```
+```
+#include<stdio.h>
+main()
+{
+int arr[] = {3,4,5,6,7};
+int brr[5] = {1,2,34,56,6};
+printf("%d",arr[0]);
+printf("%d",brr[0]);
+}
+// both type of declaration work
+// compiler assign memory automatically
 
 ```

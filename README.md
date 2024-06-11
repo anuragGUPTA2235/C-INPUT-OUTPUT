@@ -794,3 +794,18 @@ main()
 // it will end there
 // x = 0 is not in if block
 ```
+```
+#include<stdio.h>
+int i = 1000;
+main()
+{
+      int x = 3;
+      float y = 3.0;
+      if(y==x)
+        printf("equal");
+      else
+      printf("not equal");
+}
+// equal
+// implicit conversion of int to float to compare
+```

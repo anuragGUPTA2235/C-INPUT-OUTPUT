@@ -705,5 +705,20 @@ main()
 // first a is 5
 // in expression there are 2 increments changing a to 7
 // 7  + 7 = 14 
+```
+```
+#include<stdio.h>
+main()
+{
+  int a = 5;
+  a = ++a + ++a;
+  printf("%d",a);
+
+}
+// ans is 14
+// increment have more predecence than addition
+// first a is 5
+// in expression there are 2 increments changing a to 7
+// 7  + 7 = 14 
 
 ```

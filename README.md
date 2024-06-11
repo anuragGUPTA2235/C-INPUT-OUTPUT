@@ -833,3 +833,16 @@ else
 // compiler error
 // else without if block
 ```
+```
+#include<stdio.h>
+main()
+{
+int i = 0;
+for(;i<=5;++i)
+    printf("hello\n");
+}
+// i have declared assigned earlier
+// the value of i
+// it will as expected
+// 6 times hello will be printed
+```

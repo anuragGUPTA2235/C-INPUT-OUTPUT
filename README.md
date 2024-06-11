@@ -921,5 +921,15 @@ printf("%d\n",brr);
 //it's treated as a pointer to the first element of the array. Therefore, what you're actually printing here are the addresses of the first elements of the arrays, 
 //not the values of the arrays themselves.
 //To print the addresses of the arrays correctly, you should use the %p format specifier and cast the array names to void*:
-
+// correct way
+#include<stdio.h>
+int main()
+{
+    int arr[] = {3,4,5,6,7};
+    int brr[5] = {1,2,34,56,6};
+    printf("%p\n", (void*)arr);
+    printf("%p\n", (void*)brr);
+    return 0;
+}
 ```
+

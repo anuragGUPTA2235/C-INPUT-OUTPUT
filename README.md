@@ -871,3 +871,25 @@ else return 0;
 //infinite loop when j = 50
 //look carefully
 ```
+```
+#include<stdio.h>
+main()
+{
+int a[3]= {10,4,4};
+++a;
+}
+// compiler error
+// only var
+// no array and constant
+```
+```
+#include<stdio.h>
+main()
+{
+++3;
+}
+// compiler error
+// only var
+// no array and constant
+
+```

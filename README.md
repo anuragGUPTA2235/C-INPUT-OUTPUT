@@ -1000,6 +1000,7 @@ printf("%c","BHOPAL"[3]);
 char a[] = "BHOPAL";
 printf("%c\n",a[3]);
 printf("%s","BHOPAL"+3);
+printf("%s\n","anuragshekhar");
 }
 //ans  is PAL
 // %s print strings not  char

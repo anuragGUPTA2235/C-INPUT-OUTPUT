@@ -660,3 +660,15 @@ main()
 //  %d is for decimal
 // 0x10 + 010 + 10 = 16 + 8 + 10 = 34
 ```
+```
+#include<stdio.h>
+main()
+{
+  int x = 010;
+  printf("%f\n",x);
+  printf("%d\n",x);
+  printf("%o\n",x);
+  printf("%#o\n",x);
+}
+// ans is 0.0000 8 10 010
+```

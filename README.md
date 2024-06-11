@@ -943,3 +943,18 @@ num = num / 2^3<br/>
 multiply bt 2^b where b is the number of places u want to shift<br/>
 num = num << 3<br/>
 num = num * 2^3<br/>
+```
+int func(int num)
+{
+int count = 0;
+while(num)
+{
+count++;
+num >>= 1;
+}
+return count;
+}
+\\ num = num / 2
+\\ ans is 9
+\\ run loop until num becomes 0
+```

@@ -778,3 +778,19 @@ main()
 // ans is 10
 // assignment not possible in global scope
 ```
+```
+#include<stdio.h>
+int i = 1000;
+main()
+{
+      int x = 3;
+      if(x==2); x = 0 ;
+      if(x==3) x++;
+      else x+=2;
+      printf("x=%d",x);
+}
+// ans is 2
+// semicolon is used in  if
+// it will end there
+// x = 0 is not in if block
+```

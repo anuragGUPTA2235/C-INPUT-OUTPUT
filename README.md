@@ -1060,5 +1060,22 @@ int main()
 //In C, when you pass a structure as a parameter
 // to a function, the structure needs to be either
 // fully defined or declared before the function prototype.
+```
+```
+#include<stdio.h>
 
+int main()
+{
+int x, y;
+int *ptr;
+x = 100;
+ptr = &x;
+y = *ptr;
+printf("%d\n" , y);
+printf("%d\n" , ptr);
+}
+//ans is 100
+//pointers stores memory addresses
+//to access val in that address use *ptr
+// only ptr will give memory address
 ```

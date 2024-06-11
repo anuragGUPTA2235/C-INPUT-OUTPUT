@@ -610,7 +610,8 @@ main()
 // both works in similar fashion
 }
 ```
-## %0 = octal value
+## %o = octal value
+## %#o = octa; value with prefixed 0
 ## %d = integer value(decimal)
 ## %f = float value
 ## %s = string and char
@@ -658,5 +659,4 @@ main()
 // convert everyone to decimal
 //  %d is for decimal
 // 0x10 + 010 + 10 = 16 + 8 + 10 = 34
-
 ```

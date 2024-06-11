@@ -819,3 +819,17 @@ printf("hallo");
 // if only one statement
 // no need of curly brackets in for loop in c
 ```
+```
+#include<stdio.h>
+main()
+{
+int x  = 1;
+if(x--)
+    printf("hello");
+--x;
+else
+    printf("helloworld");
+}
+// compiler error
+// else without if block
+```

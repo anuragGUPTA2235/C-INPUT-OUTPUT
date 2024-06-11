@@ -766,3 +766,15 @@ main()
 // ans is 10
 // assignment not possible in global scope
 ```
+```
+
+#include<stdio.h>
+int i = 1000;
+main()
+{
+      int i =10;
+      printf("%d",i);
+}
+// ans is 10
+// assignment not possible in global scope
+```

@@ -934,12 +934,12 @@ int main()
 ```
 #BITWISE OPERATORS
 ## right shift operator
->>
+(>>)<br/>
 divide bt 2^b where b is the number of places u want to shift<br/>
 num = num >> 3<br/>
 num = num / 2^3<br/>
 ## left shift operator
-<<<br/>
+(<<)<br/>
 multiply bt 2^b where b is the number of places u want to shift<br/>
 num = num << 3<br/>
 num = num * 2^3<br/>

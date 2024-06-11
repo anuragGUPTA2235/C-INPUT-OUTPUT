@@ -958,3 +958,6 @@ return count;
 \\ ans is 9
 \\ run loop until num becomes 0
 ```
+## %s for printing and taking strings
+## %c for printing and taking single character
+## in printf and scanf

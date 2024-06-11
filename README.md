@@ -645,3 +645,4 @@ main()
 // hex
 // ans is 43ff in both cases
 ```
+## if number starts from 0x it is hex, if starts from 0 it is octal

@@ -646,3 +646,17 @@ main()
 // ans is 43ff in both cases
 ```
 ## if number starts from 0x it is hex, if starts from 0 it is octal
+```
+#include<stdio.h>
+main()
+{
+  int x = 0x10+010+10;
+  printf("%d\n",x);
+}
+// hex
+// ans is 43ff in both cases
+// convert everyone to decimal
+//  %d is for decimal
+// 0x10 + 010 + 10 = 16 + 8 + 10 = 34
+
+```

@@ -981,6 +981,13 @@ hello
 anuragshelhar
 anuragshelhar
 ```
-```
-
+#include<stdio.h>
+main()
+{
+char name = 'h';
+printf("%c\n", name);
+char a,b;
+scanf("%c",&a);
+printf("%c",a);
+}
 ```

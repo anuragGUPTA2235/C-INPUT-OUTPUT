@@ -40,7 +40,7 @@ main()
 //// the compiler consider 65 to be an integer as well as A at the same time
 
 ```
-# QUES 3
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -417,6 +417,7 @@ main()
 // !! evaluates to 1
 // its like a not gate
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -432,6 +433,7 @@ main()
 // give sign of dividend
 // ans 1-11
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -447,6 +449,7 @@ main()
 // do every bit and = 0101 = 5
 // ans is 5 
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -469,6 +472,7 @@ main()
 // sizeof(++i) = int = 4 bytes
 // 5
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -489,6 +493,7 @@ main()
 // inside switch, control goes inside case only
 /// if u do inside case, it will get modified
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -506,6 +511,7 @@ main()
 //DEFAULT WILL BE PRINTED
 }
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -520,6 +526,7 @@ main()
 // c = 1
 //ans is 1
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -531,6 +538,7 @@ main()
 // no ++ -- with constants or expressions
 // only variables
 ```
+## QUES 3
 ```
 
 #include<stdio.h>
@@ -551,6 +559,7 @@ main()
 // !true
 // false, will not enter ifelse block
 ```
+## QUES 3
 ```
 
 #include<stdio.h>
@@ -563,6 +572,7 @@ main()
 // but u have not declared it
 // compiler error
 ```
+## QUES 3
 ```
 
 #include<stdio.h>
@@ -574,6 +584,7 @@ main()
 }
 // ans is 505050
 ```
+## QUES 3
 ```
 
 #include<stdio.h>
@@ -586,6 +597,7 @@ main()
 // compiler error
 // redeclaration in c is not allowed
 ```
+## QUES 3
 ```
 
 #include<stdio.h>
@@ -600,6 +612,7 @@ main()
 // sec ans is abc as cursor moves three char to left 
 // but nothing more char to overwrite the previous one
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -634,6 +647,7 @@ main()
 //%s = string and char
 //%x = hexadecimal
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -647,6 +661,7 @@ main()
 // ans is 43ff in both cases
 ```
 ## if number starts from 0x it is hex, if starts from 0 it is octal
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -660,6 +675,7 @@ main()
 //  %d is for decimal
 // 0x10 + 010 + 10 = 16 + 8 + 10 = 34
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -672,6 +688,7 @@ main()
 }
 // ans is 0.0000 8 10 010
 ```
+## QUES 3
 ## postincrement vs preincrement
 i++ is postincrement, the previous val of i is used and after that it is incremented<br/>
 ++i is preincrement, the previous val of i is first incremented and then it is used 
@@ -691,6 +708,7 @@ main()
 // ans is 10 and 11
 // ans is 6 and 6
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -706,6 +724,7 @@ main()
 // in expression there are 2 increments changing a to 7
 // 7  + 7 = 14 
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -721,6 +740,7 @@ main()
 // in expression there are 2 increments changing a to 7
 // 7  + 7 = 14 
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -736,6 +756,7 @@ main()
 }
 // ans is 10
 ```
+## QUES 3
 ```
 
 #include<stdio.h>
@@ -754,6 +775,7 @@ main()
 //When you declare a variable within a block (such as inside a loop), it shadows any variables with the same name in outer scopes. So, within the0 for loop, 
 //the inner i variable is used, and the outer i variable remains unchanged.
 ```
+## QUES 3
 ```
 #include<stdio.h>
 int i;
@@ -766,6 +788,7 @@ main()
 // ans is 10
 // assignment not possible in global scope
 ```
+## QUES 3
 ```
 
 #include<stdio.h>
@@ -778,6 +801,7 @@ main()
 // ans is 10
 // assignment not possible in global scope
 ```
+## QUES 3
 ```
 #include<stdio.h>
 int i = 1000;
@@ -794,6 +818,7 @@ main()
 // it will end there
 // x = 0 is not in if block
 ```
+## QUES 3
 ```
 #include<stdio.h>
 int i = 1000;
@@ -809,6 +834,7 @@ main()
 // equal
 // implicit conversion of int to float to compare
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -819,6 +845,7 @@ printf("hallo");
 // if only one statement
 // no need of curly brackets in for loop in c
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -833,6 +860,7 @@ else
 // compiler error
 // else without if block
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -846,6 +874,7 @@ for(;i<=5;++i)
 // it will as expected
 // 6 times hello will be printed
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -858,6 +887,7 @@ for(;i<=5;++i);
 // as their is a semicolon outside for loop
 // it send the for statement there
 ```
+## QUES 3
 ```
 int fun(int j)
 static int i = 50;
@@ -871,6 +901,7 @@ else return 0;
 //infinite loop when j = 50
 //look carefully
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -882,6 +913,7 @@ int a[3]= {10,4,4};
 // only var
 // no array and constant
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -892,6 +924,7 @@ main()
 // only var
 // no array and constant
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -904,6 +937,7 @@ printf("%d",brr[0]);
 // both type of declaration work
 // compiler assign memory automatically
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -981,6 +1015,7 @@ hello
 anuragshelhar
 anuragshelhar
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -992,6 +1027,7 @@ scanf("%c",&a);
 printf("%c",a);
 }
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -1012,6 +1048,7 @@ printf("%s\n","anuragshekhar");
 //as it prints the substring starting from index 3 of the 
 //original string "BHOPAL".
 ```
+## QUES 3
 ```
 #include<stdio.h>
 main()
@@ -1026,6 +1063,7 @@ printf("%d",sizeof(arr));
 // also it has ending null character
 // so total 17 bytes
 ```
+## QUES 3
 ```
 Predict the Output in C Programming
 In the Below Code Snippet what would you put in place of (?) to
@@ -1042,6 +1080,7 @@ d) arr+5
 BY DEFAULT THE POINTER POINTS TO FIRTS LETTER IN STRING, WE ADD 10 IN MEMORY TO GET TO 'H'
 CHARACTER AND NOW THE POINTER POINTS TO H CHARACTER AND THEN IT PRINTS 'HELLO' ..
 ```
+## QUES 3
 ```
 #include<stdio.h>
 void test(struct number n)
@@ -1061,6 +1100,7 @@ int main()
 // to a function, the structure needs to be either
 // fully defined or declared before the function prototype.
 ```
+## QUES 3
 ```
 #include<stdio.h>
 
@@ -1079,6 +1119,7 @@ printf("%d\n" , ptr);
 //to access val in that address use *ptr
 // only ptr will give memory address
 ```
+## QUES 3
 ```
 #include<stdio.h>
 
@@ -1092,6 +1133,7 @@ printf("%d, %d, %d\n", sizeof(char*), sizeof(int*), sizeof(float*));
 //the computer architecture.
 // mine one is 4 4 4 
 ```
+## QUES 3
 ```
 #include <stdio.h>
 int main() {
@@ -1106,6 +1148,7 @@ printf("d %d", a , b);
 // DO NORMAL MATHS
 // BY THE WAY PARENTHESIS HAS HIGHEST priority
 ```
+## QUES 3
 # THE TOUGH ONE
 ```
 #include<stdio.h>

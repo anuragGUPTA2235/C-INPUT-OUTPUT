@@ -1012,3 +1012,17 @@ printf("%s\n","anuragshekhar");
 //as it prints the substring starting from index 3 of the 
 //original string "BHOPAL".
 ```
+```
+#include<stdio.h>
+main()
+{
+char arr[] = "computer science";
+printf("%d",sizeof(arr));
+}
+// ans is 17 bytes
+// sizeof return bytes in integer
+// computerscience has 16 char
+// one char takes one bytes
+// also it has ending null character
+// so total 17 bytes
+```

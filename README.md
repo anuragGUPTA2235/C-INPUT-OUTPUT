@@ -1106,3 +1106,18 @@ printf("d %d", a , b);
 // DO NORMAL MATHS
 // BY THE WAY PARENTHESIS HAS HIGHEST priority
 ```
+# THE TOUGH ONE
+```
+#include<stdio.h>
+int func()
+{
+    static int num = 16;
+    return num--;
+}
+main()
+{
+    for(func();func();func())
+        printf("%d\n",func());
+}
+// 14 11 8 5 2
+```

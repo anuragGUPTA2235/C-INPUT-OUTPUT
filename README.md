@@ -736,3 +736,21 @@ main()
 }
 // ans is 10
 ```
+```
+
+#include<stdio.h>
+main()
+{
+  int i;
+  for(i=0;i<5;i++)
+  {
+      int i;
+      i =10;
+      printf("%d",i);
+
+  }
+}
+// ans is 1010101010
+//When you declare a variable within a block (such as inside a loop), it shadows any variables with the same name in outer scopes. So, within the0 for loop, 
+//the inner i variable is used, and the outer i variable remains unchanged.
+```

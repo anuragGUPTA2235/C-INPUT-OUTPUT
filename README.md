@@ -611,7 +611,7 @@ main()
 }
 ```
 ## %0 = octal value
-## %d = integer value
+## %d = integer value(decimal)
 ## %f = float value
 ## %s = string and char
 ## %x = hexadecimal

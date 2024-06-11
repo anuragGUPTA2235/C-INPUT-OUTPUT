@@ -720,5 +720,19 @@ main()
 // first a is 5
 // in expression there are 2 increments changing a to 7
 // 7  + 7 = 14 
+```
+```
+#include<stdio.h>
+main()
+{
+  int i;
+  for(i=0;i<5;i++)
+  {
 
+      i =10;
+      printf("%d",i);
+
+  }
+}
+// ans is 10
 ```

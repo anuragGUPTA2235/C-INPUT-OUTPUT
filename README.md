@@ -754,3 +754,15 @@ main()
 //When you declare a variable within a block (such as inside a loop), it shadows any variables with the same name in outer scopes. So, within the0 for loop, 
 //the inner i variable is used, and the outer i variable remains unchanged.
 ```
+```
+#include<stdio.h>
+int i;
+i =1000;
+main()
+{
+      i =10;
+      printf("%d",i);
+}
+// ans is 10
+// assignment not possible in global scope
+```

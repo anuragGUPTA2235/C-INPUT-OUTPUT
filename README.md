@@ -1167,3 +1167,21 @@ main()
 }
 // 14 11 8 5 2
 ```
+## QUES 71
+```
+#include<stdio.h>
+
+main()
+{
+    float a = 9.0;
+    printf("%f\n",a);
+    printf("%d\n",a);
+}
+// a = 9.0
+// a = 0
+// unexpected results garbage value
+// u are using %d for floating point numbers
+// similar behaviour if condition is vice-versa
+// like %f for int values gives garbage 
+
+```

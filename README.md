@@ -1091,5 +1091,18 @@ printf("%d, %d, %d\n", sizeof(char*), sizeof(int*), sizeof(float*));
 //bytes in the memory. The Value may be 2, 4, 8 based on
 //the computer architecture.
 // mine one is 4 4 4 
-
+```
+```
+#include <stdio.h>
+int main() {
+int a, b;
+а = -3 - -3;
+b = -3 - -(-3);
+printf("d %d", a , b);
+}
+// ans is a = 0 b = -6
+// if no spaCE BW TWO CONSECUTIVE minus
+// IT IS NOT DECREMENT operator
+// DO NORMAL MATHS
+// BY THE WAY PARENTHESIS HAS HIGHEST priority
 ```

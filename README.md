@@ -1079,3 +1079,17 @@ printf("%d\n" , ptr);
 //to access val in that address use *ptr
 // only ptr will give memory address
 ```
+```
+#include<stdio.h>
+
+int main()
+{
+printf("%d, %d, %d\n", sizeof(char*), sizeof(int*), sizeof(float*));
+}
+//Golden Statement: No matter which kind of pointer it is.
+//Pointer variables takes same
+//bytes in the memory. The Value may be 2, 4, 8 based on
+//the computer architecture.
+// mine one is 4 4 4 
+
+```

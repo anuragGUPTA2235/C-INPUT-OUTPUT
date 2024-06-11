@@ -1026,3 +1026,19 @@ printf("%d",sizeof(arr));
 // also it has ending null character
 // so total 17 bytes
 ```
+```
+Predict the Output in C Programming
+In the Below Code Snippet what would you put in place of (?) to
+print "Hello"
+#include<stdio.h>
+char arr[] = "HelloWorldHello";
+printf("s", ? );
+^ Pull up for precise seeking
+a) Compiler Error
+b) arr
+C) arr+10  (CORRECT ANSWER)
+d) arr+5
+
+BY DEFAULT THE POINTER POINTS TO FIRTS LETTER IN STRING, WE ADD 10 IN MEMORY TO GET TO 'H'
+CHARACTER AND NOW THE POINTER POINTS TO H CHARACTER AND THEN IT PRINTS 'HELLO' ..
+```

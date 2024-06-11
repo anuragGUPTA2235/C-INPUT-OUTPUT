@@ -675,3 +675,20 @@ main()
 ## postincrement bs preincrement
 i++ is postincrement, the previous val of i is used and after that it is incremented<br/>
 ++i is preincrement, the previous val of i is first incremented and then it is used 
+```
+#include<stdio.h>
+main()
+{
+  int x = 10;
+  printf("%d\n",x++);
+  printf("%d",x);
+
+  int  y = 5;
+  printf("%d\n",++y);
+  printf("%d",y);
+
+}
+// ans is 10 and 11
+// ans is 6 and 6
+
+```

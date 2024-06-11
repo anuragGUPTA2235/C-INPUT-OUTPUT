@@ -858,3 +858,19 @@ for(;i<=5;++i);
 // as their is a semicolon outside for loop
 // it send the for statement there
 ```
+```
+int fun(int j)
+static int i = 50;
+int k;
+if (i == j) {
+printf("Hello");
+k = fun(i);
+return 0; }
+else return 0;
+* Pull up for precis
+a) The function returns 0 for all values of
+b) The function prints the string somethi
+c) The function returns 0 when j = 50
+d) The function will exhaust the runtime stack or run Result
+infinite loop when j = 50
+```

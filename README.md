@@ -611,7 +611,7 @@ main()
 }
 ```
 ## %o = octal value
-## %#o = octa; value with prefixed 0
+## %#o = octal value with prefixed 0
 ## %d = integer value(decimal)
 ## %f = float value
 ## %s = string and char

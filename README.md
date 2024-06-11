@@ -809,3 +809,13 @@ main()
 // equal
 // implicit conversion of int to float to compare
 ```
+```
+#include<stdio.h>
+main()
+{
+for (int i=0;i<6;i++)
+printf("hallo");
+}
+// if only one statement
+// no need of curly brackets in for loop in c
+```

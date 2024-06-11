@@ -992,3 +992,22 @@ scanf("%c",&a);
 printf("%c",a);
 }
 ```
+```
+#include<stdio.h>
+main()
+{
+printf("%c","BHOPAL"[3]);
+char a[] = "BHOPAL";
+printf("%c\n",a[3]);
+printf("%s","BHOPAL"+3);
+}
+//ans  is PAL
+// %s print strings not  char
+//When you use %s in printf(), it expects a null-terminated 
+//character array (string) as an argument. By passing 
+//"BHOPAL" + 3, you're passing a pointer to the substring "PAL",
+//which is treated as a string by printf().
+//Therefore, the output of this printf statement will be PAL, 
+//as it prints the substring starting from index 3 of the 
+//original string "BHOPAL".
+```

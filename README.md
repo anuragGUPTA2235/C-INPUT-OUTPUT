@@ -961,3 +961,22 @@ return count;
 ## %s for printing and taking strings
 ## %c for printing and taking single character
 ## in printf and scanf
+## no &operator required in strings, only for char
+```
+#include<stdio.h>
+main()
+{
+char name[20]="hello";
+printf("%s\n", name);
+char names[20]={'h','e','l','l','o'};
+printf("%s\n", names);
+char a[20];
+scanf("%s",a);
+printf("%s",a);
+}
+/// ans is
+hello
+hello
+anuragshelhar
+anuragshelhar
+```
